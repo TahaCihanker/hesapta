@@ -1,0 +1,7 @@
+# Netlify yayın ayarları: GitHub'a her push'ta bu komutla derlenip dist klasörü yayınlanır.
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
